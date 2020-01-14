@@ -17,12 +17,11 @@ public class RobotMap {
   public static final int FL_SPARKMAX_CANID = 11;
   public static final int ML_SPARKMAX_CANID = 12;
   public static final int BL_SPARKMAX_CANID = 13;
-  public static final int FR_SPARKMAX_CANID = 14;
-  public static final int MR_SPARKMAX_CANID = 15;
-  public static final int BR_SPARKMAX_CANID = 16;
+  public static final int FR_SPARKMAX_CANID = 21;
+  public static final int MR_SPARKMAX_CANID = 22;
+  public static final int BR_SPARKMAX_CANID = 23;
 
-  // If you are using multiple modules, make sure to define both the port
-  // number and the module. For example you with a rangefinder:
-  // public static int rangefinderPort = 1;
-  // public static int rangefinderModule = 1;
+  public static final int GEARSHIFT_PCM_ID = 1;
+  public static final int GEARSHIFTUP_SOLENOID_PCM = 0;
+  public static final int GEARSHIFTDOWN_SOLENOID_PCM = 1;
 }
